@@ -12,7 +12,7 @@ const AboutMe = () => {
             </div>
             <div className="col-lg-6 col-xm-12">
                 <h1 className='about-heading'>About Me</h1>
-                <p>
+                <p className='about-p'>
                     Hello! My Name is Vithursan Muthulingam, a recent graduate from University of Toronto's School of Continuing
                     Studies Web Development Boot Camp. I have had a strong passion for computers and coding since I was a
                     child and have been enrolled in several programming and animation programs at a young age.
