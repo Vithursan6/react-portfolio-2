@@ -42,11 +42,11 @@
   letter-spacing: 0.08rem;
   text-transform: uppercase;
   color:rgb(97, 225, 123);
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 4px 4px 4px black;
 }
 
 body {
-  font-family: "Roboto Condensed" sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /*Links */
@@ -63,7 +63,7 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color:rgb(97, 225, 123) !important;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 3px 3px 3px black;
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
@@ -83,6 +83,52 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/* Header */
+
+.header-wrapper {
+  position: relative;
+  background: url(wall-and-laptop-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.main-info h1 {
+  color: rgb(234, 249, 237);
+  text-shadow: 3px 3px 4px black;
+  text-transform: uppercase;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: rgb(97, 225, 123);
+  text-shadow: 3px 3px 4px black;
+}
+
+/*Header BTN */
+.btn-main-offer {
+  border: 1px solid rgb(246, 129, 12);
+  text-transform: uppercase;
+  border-radius: 0.625rem;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: white;
+  margin: 2rem;
 }
 
 @keyframes App-logo-spin {
