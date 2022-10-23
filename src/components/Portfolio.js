@@ -29,6 +29,14 @@ const Portfolio = () => {
         </>
         )
         PopupboxManager.open({content})
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: {
+                text: "Weather Forecast App",
+              },
+            },
+          });
 
     }
 
@@ -56,6 +64,14 @@ const Portfolio = () => {
         </>
         )
         PopupboxManager.open({content})
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: {
+                text: "Tech Blog App",
+              },
+            },
+          });
 
     }
 
@@ -83,6 +99,14 @@ const Portfolio = () => {
         </>
         )
         PopupboxManager.open({content})
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: {
+                text: "Social Blog App",
+              },
+            },
+          });
 
     }
 
@@ -136,6 +160,14 @@ const Portfolio = () => {
     </>
     )
     PopupboxManager.open({content})
+    PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Crypto Dashboard App",
+          },
+        },
+      });
 
     }
 
@@ -163,6 +195,14 @@ const Portfolio = () => {
     </>
     )
     PopupboxManager.open({content})
+    PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Note Taker App",
+          },
+        },
+      });
 
     }
 
