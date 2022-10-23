@@ -25,6 +25,7 @@ const Portfolio = () => {
                sequi dolores ullam iusto.
             </p>
             <b>GitHub: </b> <a className='hyper-link' onClick={() => window.open("https://github.com/Vithursan6/Weather-Cast")}>https://github.com/Vithursan6/Weather-Cast</a>
+            <br />
             <b>Link to App: </b> <a className='hyper-link' onClick={() => window.open("https://vithursan6.github.io/Weather-Cast/")}>https://vithursan6.github.io/Weather-Cast/</a>
         </>
         )
@@ -33,7 +34,7 @@ const Portfolio = () => {
             content,
             config: {
               titleBar: {
-                text: "Weather Forecast App",
+                text: "Weather Forecast",
               },
             },
           });
@@ -43,7 +44,7 @@ const Portfolio = () => {
     const popupboxConfigWeather = {
         titleBar: {
             enable: true,
-            text: "Weather Forecast App"
+            text: "Weather Forecast"
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -60,6 +61,7 @@ const Portfolio = () => {
                sequi dolores ullam iusto.
             </p>
             <b>GitHub: </b> <a className='hyper-link' onClick={() => window.open("https://github.com/vithursan6/tech-blog")}>https://github.com/vithursan6/tech-blog</a>
+            <br />
             <b>Link to App: </b> <a className='hyper-link' onClick={() => window.open("https://glacial-brushlands-88300.herokuapp.com/login")}>https://glacial-brushlands-88300.herokuapp.com/login</a>
         </>
         )
@@ -68,7 +70,7 @@ const Portfolio = () => {
             content,
             config: {
               titleBar: {
-                text: "Tech Blog App",
+                text: "Tech Blog",
               },
             },
           });
@@ -78,7 +80,7 @@ const Portfolio = () => {
     const popupboxConfigTechblog = {
         titleBar: {
             enable: true,
-            text: "Tech Blog App"
+            text: "Tech Blog"
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -95,6 +97,7 @@ const Portfolio = () => {
                sequi dolores ullam iusto.
             </p>
             <b>GitHub: </b> <a className='hyper-link' onClick={() => window.open("https://github.com/thumbolinat/project-2-blog")}>https://github.com/thumbolinat/project-2-blog</a>
+            <br />
             <b>Link to App: </b> <a className='hyper-link' onClick={() => window.open("https://portside.herokuapp.com/")}>https://portside.herokuapp.com/</a>
         </>
         )
@@ -103,7 +106,7 @@ const Portfolio = () => {
             content,
             config: {
               titleBar: {
-                text: "Social Blog App",
+                text: "Social Blog",
               },
             },
           });
@@ -113,7 +116,7 @@ const Portfolio = () => {
     const popupboxConfigSocialblog = {
         titleBar: {
             enable: true,
-            text: "Social Blog App"
+            text: "Social Blog"
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -133,13 +136,21 @@ const Portfolio = () => {
     </>
     )
     PopupboxManager.open({content})
+    PopupboxManager.update({
+        content,
+        config: {
+          titleBar: {
+            text: "Team Profile Generator",
+          },
+        },
+      });
 
     }
 
     const popupboxConfigTeam = {
         titleBar: {
             enable: true,
-            text: "Team Profile Generator App"
+            text: "Team Profile Generator "
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -156,6 +167,7 @@ const Portfolio = () => {
            sequi dolores ullam iusto.
         </p>
         <b>GitHub: </b> <a className='hyper-link' onClick={() => window.open("https://github.com/Vithursan6/crypto-dash")}>https://github.com/Vithursan6/crypto-dash</a>
+        <br />
         <b>Link to App: </b> <a className='hyper-link' onClick={() => window.open("https://vithursan6.github.io/crypto-dash/")}>https://vithursan6.github.io/crypto-dash/</a>
     </>
     )
@@ -164,7 +176,7 @@ const Portfolio = () => {
         content,
         config: {
           titleBar: {
-            text: "Crypto Dashboard App",
+            text: "Crypto Dashboard",
           },
         },
       });
@@ -174,7 +186,7 @@ const Portfolio = () => {
     const popupboxConfigCrypto = {
         titleBar: {
             enable: true,
-            text: "Crypto Dashboard App"
+            text: "Crypto Dashboard"
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -191,6 +203,7 @@ const Portfolio = () => {
            sequi dolores ullam iusto.
         </p>
         <b>GitHub: </b> <a className='hyper-link' onClick={() => window.open("https://github.com/Vithursan6/Note-taker")}>https://github.com/Vithursan6/Note-taker</a>
+        <br />
         <b>Link to App: </b> <a className='hyper-link' onClick={() => window.open("https://sleepy-escarpment-11517.herokuapp.com/")}>https://sleepy-escarpment-11517.herokuapp.com/</a>
     </>
     )
@@ -199,7 +212,7 @@ const Portfolio = () => {
         content,
         config: {
           titleBar: {
-            text: "Note Taker App",
+            text: "Note Taker",
           },
         },
       });
@@ -209,7 +222,7 @@ const Portfolio = () => {
     const popupboxConfigNotetaker = {
         titleBar: {
             enable: true,
-            text: "Note Taker App"
+            text: "Note Taker"
         },
         fadeIn: true,
         fadeInSpeed: 500
