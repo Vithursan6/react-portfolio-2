@@ -2,6 +2,7 @@ import React from 'react';
 //Fontawesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import "animate.css";
 
 const Navbar = () => {
   return (

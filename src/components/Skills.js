@@ -6,8 +6,8 @@ function Skills() {
   return (
     <div className='skills'>
                 <h2 className='skills-h'>I have experience with these technologies:</h2>
-                    <div className="animate__animated animate__flipInX skillsGrid">
-                        <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="The logo icon for react" title="React"/>
+                    <div className="animate__animated animate__backInUp skillsGrid">
+                        <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="The logo icon for react" title="React" />
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="The logo icon for HTML 5" title="HTML 5"/>
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="The logo icon for CSS3" title="CSS 3"/>
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons//javascript/javascript-original.svg" alt="The logo icon for Javascript" title="js-1"/>
