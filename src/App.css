@@ -650,6 +650,26 @@ input:focus+.line, textarea:focus+.line {
   transition: width 0.5s ease-in-out;
 }
 
+.error-message {
+  color: white;
+  background: rgb(246, 129, 12);
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
+  box-shadow: 1px 1px 3px black;
+
+}
+
+.success-message {
+  color: white;
+  background: rgb(18, 203, 18);
+  text-align: left;
+  font-weight: 900;
+  text-shadow: 1px 1px 3px black;
+  box-shadow: 1px 1px 3px black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 /*******************media queries*********************/
 @media(max-width: 768px) {
 
