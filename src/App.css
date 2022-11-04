@@ -370,6 +370,12 @@ nav ul li {
   font-weight: 600;
 }
 
+.timeline-content h4 {
+  color: #282c34;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+}
+
 .timeline-content h3 {
   margin-top: 0.3125rem;
   font-weight: 900;
