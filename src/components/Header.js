@@ -4,7 +4,7 @@ import "animate.css";
 
 const Header = () => {
   return (
-    <div className="header-wrapper">
+    <div id='home' className="header-wrapper">
         <div className="main-info">
             <h1>Web Development Services</h1>
             <Typed 

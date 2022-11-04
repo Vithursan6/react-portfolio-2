@@ -4,7 +4,7 @@ import 'animate.css';
 
 function Skills() {
   return (
-    <div className='skills'>
+    <div id='skills' className='skills'>
                 <h2 className='skills-h'>I have experience with these technologies:</h2>
                     <div className="skillsGrid">
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="The logo icon for react" title="React" />

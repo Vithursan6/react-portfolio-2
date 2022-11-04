@@ -37,13 +37,13 @@ const Contact = () => {
       };
 
   return (
-    <div className='contacts'>
+    <div id='contacts' className='contacts'>
         <div className='text-center'>
             <h1>Contact Me</h1>
             <p>Please fill out from and describe your project needs and I will contact you.</p>
             <span className="success-message">{successMessage}</span>
         </div>
-        <div className='container'>
+        <div className='container animate__animated animate__lightSpeedInRight animate__slow'>
             <form ref={form} onSubmit={handleSubmit(onSubmit)}>
             <div className='row'>
                 <div className='col-md-6 col-xs-12'>

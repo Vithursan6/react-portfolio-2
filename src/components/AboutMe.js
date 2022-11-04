@@ -3,11 +3,11 @@ import author from '../images/me.jpg'
 
 const AboutMe = () => {
   return (
-    <div className="container py-5">
+    <div id='about' className="container py-5">
         <div className="row">
             <div className="col-lg-6 col-xm-12">
                 <div className='photo-wrap mb-5'>
-                    <img className='animate__animated animate__zoomIn animate__slow profile-img' src={author} alt="author..." />
+                    <img className='animate__animated animate__jackInTheBox animate__slow profile-img' src={author} alt="author..." />
                 </div>
             </div>
             <div className="col-lg-6 col-xm-12">

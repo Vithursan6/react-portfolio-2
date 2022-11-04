@@ -9,6 +9,7 @@ import {
     EmailIcon,
     LinkedinIcon
 } from 'react-share';
+import {Link} from 'react-scroll';
 
 const Footer = () => {
   return (
@@ -17,10 +18,7 @@ const Footer = () => {
             <div className='row'>
                 <div className='col-lg-4 col-md-6 col-sm-6'>
                     <div className='d-flex'>
-                        <p>Thunder Grove, Toronto, Ontario, Canada</p>
-                    </div>
-                    <div className='d-flex'>
-                        <a href='tel:555-555-5555'>+1(555)-555-5555</a>
+                        <p>Toronto, Ontario, Canada</p>
                     </div>
                     <div className='d-flex'>
                         <p>github.com/vithursan6</p>
@@ -29,18 +27,18 @@ const Footer = () => {
                 <div className='col-lg-3 col-md-2 col-sm-6'>
                     <div className='row'>
                         <div className='col'>
-                            <a className='footer-nav'>Home</a>
+                            <Link smooth={true} to='home' offset={-115} className='footer-nav'>Home</Link>
                             <br />
-                            <a className='footer-nav'>About Me</a>
+                            <Link smooth={true} to='about' offset={-115} className='footer-nav'>About Me</Link>
                             <br />
-                            <a className='footer-nav'>Skills</a>
+                            <Link smooth={true} to='skills' offset={-120} className='footer-nav'>Skills</Link>
                         </div>
                         <div className='col'>
-                            <a className='footer-nav'>Projects</a>
+                            <Link smooth={true} to='portfolio' offset={-85} className='footer-nav'>Projects</Link>
                             <br />
-                            <a className='footer-nav'>Experience</a>
+                            <Link smooth={true} to='experience' offset={-10} className='footer-nav'>Experience</Link>
                             <br />
-                            <a className='footer-nav'>Contact</a>
+                            <Link smooth={true} to='contacts' offset={-60}  className='footer-nav'>Contact</Link>
                         </div>
                     </div>
                 </div>
