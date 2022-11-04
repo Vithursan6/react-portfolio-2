@@ -83,6 +83,7 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+  color: var(--primary-orange) !important;
 }
 
 /******************* Header *******************/
@@ -277,6 +278,7 @@ nav ul li {
     }
   .skillsGrid img {
     box-shadow: 1px 1px 12px black;
+    border-radius: 20%;
     padding: 5px 5px 5px 5px;
     height: 130px;
     width: 130px;
@@ -684,6 +686,34 @@ input:focus+.line, textarea:focus+.line {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/*******************Footer*********************/
+.footer {
+  background-image: linear-gradient(180deg, rgba(20, 20, 20, 0.975), rgb(39, 38, 38), rgb(67, 66, 66), rgb(38, 38, 38), rgb(20, 20 , 20, 0.975));
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color:rgb(97, 225, 123);
+  text-shadow: 2px 2px 4px black;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: rgb(246, 129, 12);
+  cursor: pointer;
+}
+
+.footer p {
+  color:rgb(97, 225, 123);
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 0;
+}
+
+.social-icon {
+  box-shadow: 3px 3px 8px black;
 }
 
 

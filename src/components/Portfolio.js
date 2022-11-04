@@ -237,7 +237,7 @@ const Portfolio = () => {
 
 
             <div className='image-box-wrapper row justify-content-center'>
-                <div className='portfolio-image-box' onClick={openPopupboxWeather}>
+                <div className='animate__animated animate__zoomIn animate__slow portfolio-image-box' onClick={openPopupboxWeather}>
                     <img className='portfolio-image' src={weather} alt="weather app" />
                     <div className='overflow'></div>
                     <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
@@ -245,7 +245,7 @@ const Portfolio = () => {
 
 
 
-                <div className='portfolio-image-box'  onClick={openPopupboxTechblog}>
+                <div className='animate__animated animate__zoomIn animate__slow portfolio-image-box'  onClick={openPopupboxTechblog}>
                     <img className='portfolio-image' src={techBlog} alt="tech blog app" />
                     <div className='overflow'></div>
                     <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
@@ -253,14 +253,14 @@ const Portfolio = () => {
 
 
 
-                <div className='portfolio-image-box' onClick={openPopupboxSocialblog}>
+                <div className='animate__animated animate__zoomIn animate__slow portfolio-image-box' onClick={openPopupboxSocialblog}>
                     <img className='portfolio-image' src={socialBlog} alt="social blogging app" />
                     <div className='overflow'></div>
                     <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                 </div>
 
 
-                <div className='portfolio-image-box' onClick={openPopupboxTeam}>
+                <div className='animate__animated animate__zoomIn animate__slow portfolio-image-box' onClick={openPopupboxTeam}>
                     <img className='portfolio-image' src={team} alt="team profile app" />
                     <div className='overflow'></div>
                     <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
@@ -268,14 +268,14 @@ const Portfolio = () => {
 
 
 
-                <div className='portfolio-image-box' onClick={openPopupboxCrypto}>
+                <div className='animate__animated animate__zoomIn animate__slow portfolio-image-box' onClick={openPopupboxCrypto}>
                     <img className='portfolio-image' src={crypto} alt="crypto dashboard app" />
                     <div className='overflow'></div>
                     <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                 </div>
 
 
-                <div className='portfolio-image-box' onClick={openPopupboxNotetaker}>
+                <div className='animate__animated animate__zoomIn animate__slow portfolio-image-box' onClick={openPopupboxNotetaker}>
                     <img className='portfolio-image' src={noteTaker} alt="note taker app" />
                     <div className='overflow'></div>
                     <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />

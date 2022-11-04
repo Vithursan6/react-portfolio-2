@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="container experience-wrapper">
             <div className='timeline-block timeline-block-right'>
                 <div className='marker'></div>    
-                    <div className='timeline-content'>
+                    <div className='animate__animated animate__flipInX animate__slow timeline-content'>
                         <h3>2014-2015</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         A nulla animi error minus unde ex! Quidem assumenda ut alias
@@ -21,7 +21,7 @@ const Experience = () => {
 
             <div className='timeline-block timeline-block-left'>
                 <div className='marker'></div>
-                    <div className='timeline-content'>
+                    <div className='animate__animated animate__flipInX animate__slow timeline-content'>
                         <h3>2015-2016</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         A nulla animi error minus unde ex! Quidem assumenda ut alias
@@ -33,7 +33,7 @@ const Experience = () => {
 
             <div className='timeline-block timeline-block-right'>
                 <div className='marker'></div>
-                    <div className='timeline-content'>
+                    <div className='animate__animated animate__flipInX animate__slow timeline-content'>
                         <h3>2016-2017</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         A nulla animi error minus unde ex! Quidem assumenda ut alias
@@ -45,7 +45,7 @@ const Experience = () => {
 
             <div className='timeline-block timeline-block-left'>
                 <div className='marker'></div>
-                    <div className='timeline-content'>
+                    <div className='animate__animated animate__flipInX animate__slow timeline-content'>
                         <h3>2017-2018</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         A nulla animi error minus unde ex! Quidem assumenda ut alias
@@ -57,7 +57,7 @@ const Experience = () => {
 
             <div className='timeline-block timeline-block-right'>
                 <div className='marker'></div>
-                    <div className='timeline-content'>
+                    <div className='animate__animated animate__flipInX animate__slow timeline-content'>
                         <h3>2018-2020</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         A nulla animi error minus unde ex! Quidem assumenda ut alias
