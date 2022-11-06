@@ -429,6 +429,10 @@ nav ul li {
   margin: 1.5rem;
 }
 
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+
 /*******************Overflow*********************/
 
 .overflow {
@@ -491,21 +495,136 @@ nav ul li {
 
 
 /*******************Popupbox Media Queries*********************/
-@media(max-width: 768px) {
+@media(max-width: 1000px) {
   .portfolio-image-popupbox {
-    height: 100%;
+    height: 40%;
+    width: 50%;
+  }
+
+  .popupbox-wrapper {
+    height: 75% !important;
+  }
+
+  .popupbox-content {
+    font-size: 16px;
+    font-weight: bold;
   }
 }
 
-@media(max-height: 500px) {
+@media(min-width: 1023px) {
+  .portfolio-image-popupbox {
+    height: 50%;
+    width: 40%;
+  }
+
   .popupbox-wrapper {
-    height: 100% !important;
+    height: 75% !important;
+  }
+
+  .popupbox-content {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+@media(min-height: 1350px) {
+  .portfolio-image-popupbox {
+    height: 40%;
+    width: 80%;
+  }
+
+  .popupbox-wrapper {
+    height: 80% !important;
+  }
+
+  .popupbox-content {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media(max-width: 768px) {
+  .portfolio-image-popupbox {
+    height: 50%;
+    width: 90%;
+  }
+
+  .popupbox-content {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+@media(max-height: 570px) {
+  .popupbox-wrapper {
+    height: 80% !important;
   }
   
   
   .portfolio-image-popupbox {
-    width: 40% !important;
+    width: 50% !important;
+    height: 60%;
   }
+
+  .popupbox-content {
+    height: 90%;
+  }
+}
+
+@media(max-width: 570px) {
+  .popupbox-wrapper {
+    height: 80% !important;
+  }
+  
+  
+  .portfolio-image-popupbox {
+    width: 90% !important;
+    height: 25%;
+  }
+
+  .popupbox-content {
+    height: 90%;
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+@media(max-width: 375px) {
+  .popupbox-wrapper {
+    height: 80% !important;
+  }
+  
+  
+  .portfolio-image-popupbox {
+    width: 100% !important;
+    height: 30%;
+  }
+
+  .popupbox-content {
+    height: 90%;
+    font-size: 11px;
+    font-weight: bold;
+  }
+}
+
+@media(max-width: 285px) {
+
+  .popupbox-wrapper {
+    height: 75% !important;
+    width: 60% !important;
+  }
+  
+  .portfolio-image-popupbox {
+    width: 90% !important;
+    height: 25%;
+  }
+
+  .popupbox-content {
+    height: 90%;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
 }
 
 @media(max-height: 280px) {
