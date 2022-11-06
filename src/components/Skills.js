@@ -30,7 +30,6 @@ function Skills() {
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="The logo icon for Jest" title="jest-i"/>
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" alt="The logo icon for Markdown" title="markdown-i"/>
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="The logo icon for Sass" title="sass-I"/>
-                        <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" alt="The logo icon for Nginx" title="nginx-i"/>
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg" alt="The logo icon for Gitlab" title="gitlab-i"/>
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original-wordmark.svg" alt="The logo icon for Gitlab" title="gitlab-i"/>
                         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original-wordmark.svg" alt="The logo icon for Slack" title="slack-i"/>

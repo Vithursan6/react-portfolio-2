@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 import "animate.css";
 
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
                 backSpeed={60}
                 loop
             />
-            <a href="#" className="animate__animated animate__flipInX animate__slow btn-main-offer">Contact Me</a>
+            <Link to="contacts" offset={-60} className="animate__animated animate__flipInX animate__slow btn-main-offer">Contact Me</Link>
         
         </div>
     </div>
